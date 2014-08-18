@@ -1,0 +1,14 @@
+---
+galaxy_info:
+  author: Goran Mekić
+  description: PostgreSQL role
+  license: GPLv3
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+      - wheezy
+  categories:
+  - database:sql
+dependencies:
+    - { roles: meka.common }

@@ -1,0 +1,12 @@
+---
+- name: add postgresql repo
+  sudo: yes
+  apt_repository:
+    repo: deb http://apt.postgresql.org/pub/repos/apt/ wheezy-pgdg main
+    state: present
+
+- name: add postgresql repo key
+  sudo: yes
+  apt_key:
+    url: https://www.postgresql.org/media/keys/ACCC4CF8.asc
+    state: present
