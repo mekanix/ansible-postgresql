@@ -11,4 +11,4 @@ galaxy_info:
   categories:
   - database:sql
 dependencies:
-    - { roles: meka.common }
+  - meka.common
